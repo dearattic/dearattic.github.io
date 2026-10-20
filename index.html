@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dear Attic Studio</title>
+<meta name="description" content="Dear Attic Studio — 작고 말랑한 캐주얼 게임을 만듭니다. Small, cozy casual games.">
+<!-- GitHub Pages(dearattic.github.io) 첫 화면. 게임이 늘면 .games에 카드 추가, 스토어 링크는 출시 후 -->
+<style>
+  :root { --bg: #fff6ea; --card: #ffffff; --ink: #4a2c12; --sub: #7a5a3c; --line: #f1d3b3; --accent: #d62828; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1f1711; --card: #2a2018; --ink: #f3e6d8; --sub: #c9b29a; --line: #4a3a2c; --accent: #ff6b6b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px 64px; }
+  .studio { font-size: 13px; letter-spacing: 2px; color: var(--sub); text-transform: uppercase; }
+  h1 { margin: 4px 0 4px; font-size: 32px; line-height: 1.25; }
+  .lead { color: var(--sub); margin: 0 0 32px; }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin-bottom: 16px; }
+  .game h2 { margin: 0; font-size: 22px; color: var(--accent); }
+  .game .en { color: var(--sub); font-size: 14px; margin: 0 0 8px; }
+  .game p { margin: 6px 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px; font-size: 14px; }
+  .soon { color: var(--sub); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; font-size: 13px; color: var(--sub); }
+</style>
+</head>
+<body>
+<main>
+  <div class="studio">Dear Attic Studio</div>
+  <h1>Dear Attic</h1>
+  <p class="lead">다락방에서 만드는 작고 말랑한 게임<br>Small, cozy games made in the attic</p>
+
+  <div class="games">
+    <section class="game">
+      <h2>말랑과일 톡톡</h2>
+      <p class="en">Squishy Fruit Pop</p>
+      <p>같은 과일을 떨어뜨려 합치면 더 큰 과일이 돼요. 상자가 넘치기 전에 가장 큰 과일까지 키워 보세요.</p>
+      <p class="en">Drop and merge matching fruits to grow bigger ones before the box overflows.</p>
+      <div class="links">
+        <span class="soon">Google Play 출시 준비 중 · Coming soon</span>
+        <a href="squishy-fruit-pop/privacy.html">개인정보처리방침 · Privacy Policy</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>© 2026 Dear Attic Studio</footer>
+</main>
+</body>
+</html>
