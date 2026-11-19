@@ -47,7 +47,7 @@
   <h2>1. 한눈에 보기</h2>
   <ul>
     <li>게임에는 <b>회원 가입이 없고</b>, 이름·이메일·전화번호 같은 정보를 묻지 않습니다.</li>
-    <li>점수·코인·도감·설정 같은 <b>게임 기록은 휴대폰 안에만</b> 저장되며 개발자에게 전송되지 않습니다.</li>
+    <li>점수·코인·도감·설정 같은 <b>게임 기록은 휴대폰 안에</b> 저장되며 개발자에게 전송되지 않습니다. 휴대폰의 Google 백업을 켜 두셨다면 이 기록이 이용자 본인의 Google 계정에 백업될 수 있습니다.</li>
     <li>광고(Google AdMob)와 사용 통계·오류 기록(Google Firebase)을 위해 <b>기기 식별자와 사용 기록 일부가 Google로 자동 전송</b>됩니다.</li>
     <li>게임 안에서 판매하는 유료 상품은 없습니다.</li>
   </ul>
@@ -60,7 +60,7 @@
     <tr><td>오류 기록 (Firebase Crashlytics)</td><td>앱 비정상 종료 기록, 기기 상태(기종, 운영체제, 메모리 등), 앱 설치 식별자</td><td>오류 찾기와 고치기</td></tr>
     <tr><td>문의 (이메일)</td><td>이메일 주소, 보내 주신 내용</td><td>문의 답변</td></tr>
   </table></div>
-  <p>사용 통계에는 광고 ID를 쓰지 않습니다. 게임 기록(점수, 코인, 도감, 설정, 저장한 판)은 기기의 앱 전용 저장 공간에만 있으며, 앱을 삭제하면 함께 지워집니다.</p>
+  <p>사용 통계에는 광고 ID를 쓰지 않습니다. 게임 기록(점수, 코인, 도감, 설정, 저장한 판)은 기기의 앱 전용 저장 공간에 있으며, 앱을 삭제하면 기기에서 지워집니다. 휴대폰의 Google 백업(안드로이드 기본 기능)이 켜져 있으면 이 기록이 이용자 본인의 Google 계정에 암호화되어 백업되고, 같은 계정으로 게임을 다시 설치할 때 복원될 수 있습니다. 개발자는 이 백업을 볼 수 없습니다. 백업을 원하지 않으면 휴대폰 설정의 Google 백업에서 끌 수 있습니다.</p>
 
   <h2>3. 보유 및 이용 기간</h2>
   <ul>
@@ -134,7 +134,7 @@
   <h2>1. Summary</h2>
   <ul>
     <li>The Game has <b>no sign-up</b> and never asks for your name, email address or phone number.</li>
-    <li>Your <b>game progress</b> (scores, coins, fruit book, settings) <b>stays on your device</b> and is not sent to us.</li>
+    <li>Your <b>game progress</b> (scores, coins, fruit book, settings) <b>is stored on your device</b> and is not sent to us. If Google backup is turned on for your phone, this progress may be backed up to your own Google Account.</li>
     <li>To show ads (Google AdMob) and to collect usage statistics and crash reports (Google Firebase), <b>device identifiers and some usage data are sent automatically to Google</b>.</li>
     <li>The Game does not sell any paid items.</li>
   </ul>
@@ -147,7 +147,7 @@
     <tr><td>Crash reports (Firebase Crashlytics)</td><td>Crash logs, device state (model, OS, memory, etc.), app instance ID</td><td>Finding and fixing bugs</td></tr>
     <tr><td>Support (email)</td><td>Your email address and message</td><td>Replying to you</td></tr>
   </table></div>
-  <p>Usage statistics do not use the advertising ID. Game progress is kept only in the app's private storage on your device and is deleted when you uninstall the Game.</p>
+  <p>Usage statistics do not use the advertising ID. Game progress (scores, coins, fruit book, settings, saved game) is kept in the app's private storage on your device and is removed from the device when you uninstall the Game. If Google backup (a standard Android feature) is turned on, this progress is backed up in encrypted form to your own Google Account and may be restored when you reinstall the Game with the same account. We cannot access this backup. If you do not want it, you can turn off Google backup in your phone's settings.</p>
 
   <h2>3. Retention</h2>
   <ul>
